@@ -11,6 +11,8 @@
 - setup firebase
 - deploy to prod everytime we push main
 - Create sign up user account firebase
+- Created redux store for user with userSlice
+- Added logout & user logo on header in browse page
 
 # Features
 - Login/Sign Up

@@ -5,16 +5,18 @@ import { checkValidData } from "../../utils/Validate";
 
 const Login = () => {
   const [isSignUp, setIsSignUp] = useState(false);
-  const email = useRef(null);
-  const password = useRef(null);
+  const email = useRef<HTMLInputElement>(null);
+  const password = useRef<HTMLInputElement>(null);
 
-  const [errorMessage, setErrorMessage] = useState(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const handletoogleSignUp = () => {
     setIsSignUp(!isSignUp);
   };
   const handleButtonClick = () => {
     // validate form data
-    const message = checkValidData(email.current.value, password.current.value);
+    const emailVal = email.current?.value || "";
+    const passwordVal = password.current?.value || "";
+    const message = checkValidData(emailVal, passwordVal);
     setErrorMessage(message);
 
     // Sign In / Sign Up

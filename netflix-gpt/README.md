@@ -9,6 +9,8 @@
 - Form validation
 - useRef hook 
 - setup firebase
+- deploy to prod everytime we push main
+- Create sign up user account firebase
 
 # Features
 - Login/Sign Up

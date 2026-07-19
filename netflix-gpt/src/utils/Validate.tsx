@@ -1,4 +1,4 @@
-export const checkValidData = (email: string, password: string): string | null => {
+export const checkValidData = (email, password) => {
     const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     const isPasswordValid = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/.test(password);
 

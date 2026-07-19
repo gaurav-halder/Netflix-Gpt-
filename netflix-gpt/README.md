@@ -8,6 +8,7 @@
 - Sign Up form
 - Form validation
 - useRef hook 
+- setup firebase
 
 # Features
 - Login/Sign Up

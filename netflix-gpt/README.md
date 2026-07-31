@@ -16,6 +16,8 @@
 - update profile
 - Bugfix - signup user display name, if user not logged in redirect to / else /browse page of logged in
 - Register at TMDB API & GET API from browse page
+- fetch and store data in slice app store
+- shift fetch call from browse.tsx to a hook useNowPlayingMovies
 
 # Features
 - Login/Sign Up

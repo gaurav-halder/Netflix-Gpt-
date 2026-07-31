@@ -15,6 +15,7 @@
 - Added logout & user logo on header in browse page
 - update profile
 - Bugfix - signup user display name, if user not logged in redirect to / else /browse page of logged in
+- Register at TMDB API & GET API from browse page
 
 # Features
 - Login/Sign Up
